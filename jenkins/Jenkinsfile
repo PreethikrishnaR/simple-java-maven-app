@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                bat 'simple-java-maven-app/jenkins/scripts/deliver.sh'
+                bat 'https://github.com/PreethikrishnaR/simple-java-maven-app/blob/master/jenkins/scripts/deliver.sh'
             }
         }
     }
