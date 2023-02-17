@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                bat 'cd simple-java-maven-app/blob/master/jenkins/scripts/deliver.sh'
+                echo 'Delivered!'
             }
         }
     }
